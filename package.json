@@ -1,17 +1,22 @@
 {
-  "name": "emitter-component",
+  "name": "component-emitter",
   "description": "Event emitter",
-  "version": "1.0.1",
-  "dependencies": {
-    "indexof": "0.0.1"
-  },
+  "version": "1.1.2",
   "devDependencies": {
     "mocha": "*",
     "should": "*"
   },
   "component": {
     "scripts": {
-      "emitter": "index.js"
+      "emitter/index.js": "index.js"
     }
+  },
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/component/emitter.git"
+  },
+  "scripts": {
+    "test": "make test"
   }
 }
